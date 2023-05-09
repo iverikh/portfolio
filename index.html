@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="styles.css">
+    <title>Iverikh Portfolio</title>
+    <!--box modeling-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <a href="#" class="logo">Iveri</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello it's me</h3>
+            <h1>Iveri Khetagashvili</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Motivated by my passion for problem-solving, I have pursued programming as a self-taught developer. My learning journey has been guided by reputable online resources, such as w3schools. com and freecodecamp.org. Currently, I have a solid foundation in HTML, CSS, and JavaScript, and am currently improving my skills in ReactJS. I am committed to continually advancing my knowledge and expertise in front-end web development and eager to bring my self-taught experience to a professional setting.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home.png" alt="Iveri">
+
+        </div>
+    </section>
+
+<!--about section-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/about.png" alt="about">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>At first glance, you may wonder why you should hire me, 
+            given my limited experience and foreign background. 
+            However, I am a loyal and dedicated employee, having never left a job for a better salary. 
+            As a beginner programmer, I am eager to learn and contribute to your company, 
+            and I am a friendly and open-minded team player.
+            I am willing to commit to a three-year contract without asking for a salary increase 
+            and am open to accepting the minimum wage allowed in the country to ease the burden of paperwork. 
+            Thank you for your consideration.</p>
+            <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+<!--skills section-->
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-container">
+        <div class="skills-box">
+            <i class='bx bxl-html5'></i>
+            <h3>HTML</h3>
+            <p>since I am a beginner my knowledge in The HTML is mostly theoretical. however I am practicing a lot.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="skills-box">
+            <i class='bx bxl-css3' ></i>
+            <h3>CSS</h3>
+            <p>since I am a beginner my knowledge in The CSS is mostly theoretical. however I am practicing a lot. </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="skills-box">
+            <i class='bx bxl-nodejs' ></i>
+            <h3>JavaScript</h3>
+            <p>since I am a beginner my knowledge in The JavaScript is mostly theoretical. however I am practicing a lot. </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="skills-box">
+            <i class='bx bxl-react' ></i>
+            <h3>React JS</h3>
+            <p>React JS is my new passion. Hopefully soon I will be able to say “I really know” how to use react library.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+
+</section>
+<!--portfolio section-->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/portfolio1.png" alt="portfolio site">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>www.iverikh.com</p>
+                <a href="https://github.com/iverikh/alcotasty.com.git"><i class='bx bx-link-external'></i></a>
+                
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/portfolio2.png" alt="portfolio site">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>www.alcotasety.com</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+            
+    </div>
+</section>
+<!--contact section-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+<form action="#">
+    <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+    </div>
+    <div class="input-box">
+        <input type="number" placeholder="Mobile number">
+        <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+</form>
+</section>
+<!-- footer section-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 By Iverikh | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+<!--Scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!--javascript part-->
+<script src="script.js"></script>
+</body>
+</html>
